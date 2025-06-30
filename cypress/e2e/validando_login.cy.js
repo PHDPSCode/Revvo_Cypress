@@ -13,7 +13,7 @@ describe('Validando tela de login', () => {
   });
 
   it('Validando campos da tela de login', () => {
-    cy.get('.mb-4').contains('Acesso a Moodle 5.0 sandbox demo');
+    cy.get('.mb-4').contains('Acesso a NetZero Academy test site');
     cy.get('.login-form-forgotpassword > a').contains('Perdeu a senha?');
     cy.get('.login-instructions > .login-heading').contains('Esta é a sua primeira vez aqui?');
     cy.get('p').contains('You can use one of the following demo accounts to login:');
